@@ -1,0 +1,10 @@
+[toolchain]
+channel = "1.73"
+targets = [
+  "wasm32-wasi",
+]
+components = [ 
+  "rust-analyzer",
+  "rust-src",
+]
+ 
